@@ -3,8 +3,9 @@
 import requests
 
 
-def enumirate(N: int = 100):
+def enumirate(N: int = 1000):
   for x in range(N):
+    
     print(f'Now x is {x}')
 
 
