@@ -1,4 +1,6 @@
+# coding: utf-8
 
+import requests
 
 
 def enumirate(N: int = 100):
@@ -6,4 +8,4 @@ def enumirate(N: int = 100):
     print(f'Now x is {x}')
 
 
-enumirate()
+enumirate(103)
